@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    width: 95%;
+    height: 1107px;
+    margin: auto;
+}
+
+.header {
+    background-image: url(../images/starfield-banner.jpg);
+    position: fixed;
+    width: 95%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img {
+    margin-top: 8px;
+    margin-left:20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.header .guide {
+    width: 69%;
+    height: 80px;
+}
+.guide .guide-up {
+    text-align: right;
+    margin: 5px 50px 5px 30px;
+    height: 40px;
+}
+.guide .guide-down {
+    background-color: gray;
+    text-align: right;
+    margin: 5px 50px 5px 30px;
+    height: 40px; 
+}
+.guide .guide-up a {
+    font: 25px 'Gill Sans';
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+}
+.guide .guide-up a:last-child {
+    border-right: none;
+}
+.guide .guide-down a {
+    font: 18px 'Gill Sans';
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    margin-top: 8px;
+}
+.guide .guide-down a:last-child {
+    border-right: none;
+}
+.header .search {
+    width: 20%;
+    height: 80px;
+}
+.header .search input {
+    margin: 20px auto auto 0;
+    width: 250px;
+    height: 38px;
+    background-color:rgb(104, 100, 100);
+    border:1px solid rgb(104, 100, 100);
+    color: white;
+
+}
+/* .search::before {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e643";
+    color: white;
+} */
+.search i {
+    position: absolute;
+    left: 1660px;
+    top: 27px;
+}
+.search::after {
+    position: absolute;
+    left: 1710px;
+    top: 27px;
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e60b";
+    color: white;
+}
+
+.header .logo-link {
+    padding: 10px;
+}
+
+.header .logo {
+    width:110px;
+    margin:11px;
+}
