@@ -124,6 +124,7 @@ body {
     background-color: rgb(66, 116, 148);
 }
 .right-up .item-1 {
+    position: relative;
     flex: 1;
     height: 90%;
     margin:20px 5px 10px 5px;
@@ -147,9 +148,11 @@ body {
     margin:40px 10px auto 10px;
 }
 .line-1 .item {
+    position: relative;
     height: 600px;
 }
 .item {
+    position: relative;
     flex: 1;
     height: 300px;
     margin: 10px 5px 10px 5px;
@@ -236,6 +239,32 @@ body {
     text-align: right;
     text-decoration: none;
     margin-right: 20px;
+}
+.tags {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+    background-color: rgb(97, 116, 180);
+    font-family: 'Microsoft yahei';
+}
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 35px;
+    background-color: rgb(202, 190, 196,0.8);
+    font-family: 'Microsoft yahei';
+}
+.one-line {
+    bottom: 35px;
+}
+.two-line {
+    bottom: 70px;
 }
 .header .logo-link {
     padding: 10px;
