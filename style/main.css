@@ -4,28 +4,29 @@
 }
 body {
     background-color: black;
-    width: 95%;
-    height: 1107px;
+    width: 85%;
+    height: 1600px;
     margin: auto;
+    flex-direction:column;
 }
-
 .header {
     background-image: url(../images/starfield-banner.jpg);
-    position: fixed;
-    width: 95%;
+    width: 100%;
     height: 85px;
     display: flex;
     justify-content: space-between;
+    margin-left: 40px;
+    margin-top:40px;
 }
 .header img {
     margin-top: 8px;
-    margin-left:20px;
+    margin-left: 10px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 .header .guide {
-    width: 69%;
+    width: 75%;
     height: 80px;
 }
 .guide .guide-up {
@@ -36,7 +37,7 @@ body {
 .guide .guide-down {
     background-color: gray;
     text-align: right;
-    margin: 5px 50px 5px 30px;
+    margin: 5px 50px 5px 50px;
     height: 40px; 
 }
 .guide .guide-up a {
@@ -54,7 +55,7 @@ body {
     color: white;
     text-decoration: none;
     border-right: 1px solid white;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 0;
     display: inline-block;
     margin-top: 8px;
 }
@@ -85,13 +86,13 @@ body {
 } */
 .search i {
     position: absolute;
-    left: 1660px;
-    top: 27px;
+    left: 1690px;
+    top: 67px;
 }
 .search::after {
     position: absolute;
-    left: 1710px;
-    top: 27px;
+    left: 1740px;
+    top: 67px;
     font-family: "iconfont" !important;
     font-size: 25px;
     font-style: normal;
@@ -100,7 +101,88 @@ body {
     content: "\e60b";
     color: white;
 }
+.content {
+    width: 95%;
+    height: 800px;
+    margin: 30px auto 10px auto;
+}
+.line-1{
+    display: flex;             
+}
+.line-1 .left{
+    background-image: url(../images/pia21924-16.jpg);
+}
+.line-1 .right{
+    background-color: rgb(131, 184, 233);
+}
+.line-1 .right-up {
+    display: flex;
+    background-color: cadetblue;
+    height: 50%;
+}
+.line-1 .right-down {
+    background-image: url(../images/s69-39961.jpg);
+    height: 50%;
+}
+.right-up .item-1 {
+    flex: 1;
+    line-height: 400px;
+    height: 90%;
+    margin: 10px 5px 10px 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-up-left {
+    background-image: url(../images/mollweide_cycle.jpg);
+}
+.right-up-right {
+    background-color: red;
+}
+.line-1 .item {
+    height: 600px;
+}
+.item {
+    flex: 1;
+    line-height: 400px;
+    background-color: cadetblue;
+    height: 300px;
+    margin: 10px 5px 10px 5px;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.line-2{
+    display: flex;             
+}
+
+.line-2 .left {
+    background-image: url(../images/ssc2017-14a1.jpg);
+}
+.line-2 .right {
+    background-color: blue;
+}
+.line-2 .middle {
+    background-image: url(../images/pia22556-16.gif);
+    flex: 0 0 50%;
+}
+.line-3{
+    display: flex;             
+}
+.line-3 .first{
+    background-image: url(../images/nasa_logo.png);
+}
+.line-3 .second{
+    background-image: url(../images/io-home.gif);
+}
+.line-3 .third{
+    background-image: url(../images/cassini20170809.jpg);
+    
+}
+.line-3 .last{
+    background-image: url(../images/fermiicecube_as.jpg);
+}
 .header .logo-link {
     padding: 10px;
 }
