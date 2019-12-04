@@ -185,6 +185,19 @@ body {
 .line-2 .left {
     background-image: url(../images/ssc2017-14a1.jpg);
 }
+.line-3 .second::after,
+.line-2 .left::after {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    content: "\e61d";
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    color:rgb(165, 159, 159);
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .line-2 .right {
     background-color: blue;
 }
